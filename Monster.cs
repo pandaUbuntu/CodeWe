@@ -5,6 +5,9 @@ namespace ConsoleApp6
     public class Monster
     {
         private int damage;
+        protected int protect;
+        protected int speed;
+        
         public int Damage
         {
             get { return this.damage; }
