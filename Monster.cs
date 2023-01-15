@@ -8,6 +8,11 @@ namespace ConsoleApp6
         protected int protect;
         protected int speed;
         
+        public int Damage
+        {
+            get { return this.damage; }
+            set { this.damage = value; }
+        }
         private int armor;
         private int expirienceReward;
     }
