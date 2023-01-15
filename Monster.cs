@@ -5,6 +5,7 @@ namespace ConsoleApp6
     public class Monster
     {
         private int damage;
+		private float criticalChance; 
         protected int protect;
         protected int speed;
         
