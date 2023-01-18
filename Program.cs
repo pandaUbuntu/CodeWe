@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Text;
 using System.Xml.Linq;
+using Coord;
+using Monster;
+
 
 namespace ConsoleApp1
 {
@@ -11,6 +14,10 @@ namespace ConsoleApp1
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.Unicode;
             Random rand = new Random();
+			
+			Coord cooord = new Coord(5,5);
+			Monster mod = new Monster();
+			
 
             int[] list = new int[1000];
             double sum = 0;
