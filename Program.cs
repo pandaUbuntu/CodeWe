@@ -6,7 +6,7 @@ namespace ConsoleApp1 3
 {
     class Program 4
     {
-        static void Main(string[] args)
+        static void Main([] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.Unicode;
