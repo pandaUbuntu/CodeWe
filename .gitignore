@@ -24,7 +24,7 @@
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compiled Static libraries asd a
 *.lai
 *.la
 *.a
