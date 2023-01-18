@@ -14,7 +14,7 @@ namespace ConsoleApp1
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.Unicode;
             Random rand = new Random();
-			
+			s
 			Coord cooord = new Coord(5,5);
 			Monster mod = new Monster();
 			
@@ -33,6 +33,8 @@ namespace ConsoleApp1
             {
                 Console.Write(list[i] + " ");
             }
+			
+			Console.ReadLine();
 
             Console.WriteLine("\nAvarage = "  + sum / list.Length);
         }
